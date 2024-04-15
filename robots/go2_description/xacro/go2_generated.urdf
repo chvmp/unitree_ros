@@ -34,8 +34,8 @@
   <!-- ros_control plugin -->
   <gazebo>
     <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
-      <robotNamespace>/go2_gazebo</robotNamespace>
-      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+    <!--  <robotNamespace>/go2_gazebo</robotNamespace>
+      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType> -->
     </plugin>
   </gazebo>
   <!-- Show the trajectory of trunk center. -->
@@ -49,7 +49,7 @@
             </plot>
         </plugin>
     </gazebo-->
-  <!-- Show the trajectory of foot. You can add another trajectory about another foot. -->
+  <!-- Show the trajectory of foot. You can add another trajectory about another foot. 
   <gazebo>
     <plugin filename="libLinkPlot3DPlugin.so" name="3dplot">
       <frequency>100</frequency>
@@ -58,7 +58,7 @@
         <pose>0 0 0 0 0 0</pose>
       </plot>
     </plugin>
-  </gazebo>
+  </gazebo> -->
   <gazebo>
     <plugin filename="libgazebo_ros_force.so" name="gazebo_ros_force">
       <bodyName>trunk</bodyName>
