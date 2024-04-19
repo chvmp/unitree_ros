@@ -58,8 +58,8 @@
         <pose>0 0 0 0 0 0</pose>
       </plot>
     </plugin>
-  </gazebo>
-  <gazebo> -->
+  </gazebo> -->
+  <gazebo> 
     <plugin filename="libgazebo_ros_force.so" name="gazebo_ros_force">
       <bodyName>trunk</bodyName>
       <topicName>/apply_force/trunk</topicName>
